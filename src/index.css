@@ -1,13 +1,40 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.voters-form{
+    background-color: #EEF5FC;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.nav-text{
+    color: white !important;
+    font-size: larger;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+#inputFname4,
+#inputLname4,
+#inputEmail4,
+#inputAddress4,
+#inputOccupation4,
+#inputPhone4,
+#inputState,
+#inputLGA,
+#inputWard{
+    border: white; 
+}
+
+.btn{
+    background-color: #0795ED;
+    border: none;
+    width: 30%;
+    font-size: larger;
+    padding: 5px 1px;
+}
+.btn:hover{
+    background-color: #0795ED;
+}
+
+form{
+    border: 1px solid black;
+    padding: 4% !important;
+}
+
+
